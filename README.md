@@ -49,9 +49,11 @@ Run the three Python scripts to download the databases. They will create folders
 
 Important: The scripts use USE_ONE_BASED_INDICES = True to align with MATLAB’s 1‑based indexing. Do not change this unless you also adapt the MATLAB script.
 
+```bash
 python downloadMITBIH.py
 python downloadQT.py
 python downloadNSTDB.py
+```
 
 ---
 
